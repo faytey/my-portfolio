@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  opacity: 0.9;
+  padding: 0 1rem;
+}
+
+.nav .nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav .nav-list .nav-item {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.nav .nav-list .nav-item:hover,
+.nav .nav-list a:active {
+  background-color: #444;
+  color: #f7c08a;
+}
+.nav .nav-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
