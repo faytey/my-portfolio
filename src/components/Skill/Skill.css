@@ -25,4 +25,6 @@
 
 .skill:hover span {
   opacity: 1;
+  transform: translate(-5px, -5px);
+  box-shadow: 0.4rem 0.4rem 0.5rem #f7c08a;
 }
