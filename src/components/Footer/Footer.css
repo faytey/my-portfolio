@@ -3,4 +3,15 @@
   color: #fff;
   text-align: center;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer * {
+  margin: 0 0.5rem;
+}
+
+.footer img {
+  width: 1.5rem;
+  height: 1.5rem;
 }
