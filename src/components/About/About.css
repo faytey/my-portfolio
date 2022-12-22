@@ -13,10 +13,6 @@
   align-items: center;
 }
 
-/* .aboutFaith *{
-    flex: 1;
-} */
-
 .aboutFaith .image {
   width: 100%;
   flex: 1;
@@ -30,7 +26,7 @@
 }
 
 .aboutFaith p {
-    flex: 2;
+  flex: 2;
   margin-left: 1rem;
   padding: 0 1rem;
   animation: about 0.5s ease-in forwards;

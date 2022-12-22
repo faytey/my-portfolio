@@ -3,3 +3,81 @@
   background-color: #f8f8f8;
   line-height: 2;
 }
+
+@media (max-width: 900px) {
+  .App {
+    line-height: 1;
+  }
+  .nav {
+    line-height: 1;
+  }
+
+  .nav .nav-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav .nav-list .nav-item {
+    padding: 3px;
+    /* display: none; */
+    border: 1px dotted #444;
+  }
+
+  .nav .nav-brand {
+    padding: 2rem 0;
+  }
+
+  .nav .toggle {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+
+  .nav .collapse {
+    /* display: block; */
+    margin-right: 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .hero .info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .aboutFaith {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .aboutFaith .image {
+    display: none;
+  }
+
+  .allSkills {
+    padding: 3rem;
+  }
+
+  .skill span {
+    font-size: 2rem;
+  }
+
+  .form {
+    padding: 0;
+    margin: 0;
+  }
+}
