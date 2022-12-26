@@ -7,6 +7,13 @@
   padding: 0 1rem;
 }
 
+.navs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
 .nav .nav-list {
   display: flex;
   justify-content: space-around;
@@ -54,7 +61,7 @@
   border-radius: 0.5rem;
 }
 
-.collapse {
+/* .collapse {
   display: none;
   width: 2rem;
   height: 2rem;
@@ -76,4 +83,4 @@
 
 .collapse span:last-child {
   transform: rotate(-55deg);
-}
+} */

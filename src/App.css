@@ -10,12 +10,18 @@
   }
   .nav {
     line-height: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    display: inline-flex;
   }
 
   .nav .nav-list {
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .nav .nav-list .nav-item {
@@ -29,13 +35,8 @@
   }
 
   .nav .toggle {
-    /* display: block; */
+    display: block;
     margin-left: auto;
-    margin-right: 1rem;
-  }
-
-  .nav .collapse {
-    /* display: block; */
     margin-right: 1rem;
   }
 
