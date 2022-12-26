@@ -44,14 +44,12 @@
 }
 
 .greet {
-  animation: greet 3s ease-in-out forwards;
-  transform: translateY(-100px);
+  animation: greet 5s ease-in-out forwards;
   opacity: 0;
 }
 
 @keyframes greet {
   100% {
-    transform: translateY(0);
     opacity: 1;
   }
 }

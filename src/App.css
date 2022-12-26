@@ -43,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 5rem;
-    height: auto;
+    padding-bottom: 5rem;
   }
 
   .hero .info {
