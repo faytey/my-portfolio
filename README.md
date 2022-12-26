@@ -6,7 +6,7 @@ Thank you for visiting my web developer portfolio! My name is Faith M. Roberts a
 
 ## Technologies Used
 
-This portfolio was built using ReactJS, a popular JavaScript library for building user interfaces. It was designed to be lightweight and fast, making it easy for visitors to browse through my work. Additionally, I used HTML and CSS for styling and layout, and implemented a little responsive design techniques to ensure that the site looks great on all devices which is still a work in progress.
+This portfolio was built using ReactJS, a popular JavaScript library for building user interfaces. It was designed to be lightweight and fast, making it easy for visitors to browse through my work. Additionally, I used HTML and CSS for styling and layout, and implemented responsive design techniques to ensure that the site looks great on all devices which is still a work in progress.
 
 ## Contact
 
