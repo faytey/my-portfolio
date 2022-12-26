@@ -2,7 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 15rem;
+  min-width: 300px;
   border-radius: 0.2rem;
   display: flex;
   justify-content: center;
@@ -13,14 +13,14 @@
 .skill span {
   opacity: 0;
   color: #444;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 0.1rem 0.1rem 0.1rem #f7c18a5b;
   background-color: rgba(255, 255, 255, 0.9);
   transition: all 1s ease-out;
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 3rem 0 0;
 }
 
 .skill:hover span {

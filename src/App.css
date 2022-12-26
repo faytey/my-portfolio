@@ -41,22 +41,19 @@
 
   .hero {
     flex-direction: column;
-    padding: 0;
+    align-items: center;
+    padding-top: 5rem;
+    height: auto;
   }
 
   .hero .info {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
     padding: 0;
-    align-items: center;
     margin: 0;
-    font-size: 1.2rem;
+    line-height: 1.5;
   }
 
-  .hero img {
-    width: 100%;
+  .myInfo {
+    padding: 1 rem;
   }
 
   .aboutFaith {
@@ -76,8 +73,38 @@
     font-size: 2rem;
   }
 
+  .footer {
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero {
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .info {
+    align-items: left;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 100%;
+  }
+
   .form {
-    padding: 0;
-    margin: 0;
+    padding: 1rem 5rem;
+  }
+
+  .skill {
+    height: 15rem;
+  }
+
+  .skill span {
+    font-size: 5rem;
   }
 }

@@ -1,5 +1,8 @@
 .myInfo {
-  padding: 0 5rem;
+  padding: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.1rem;
 }
 
 .myInfo h1 {
@@ -21,8 +24,8 @@
   background-image: url("../../images/faith.jpg");
   background-size: cover;
   background-position: center;
-  border: 1px solid rgba(0,0,0,0.2);
-  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
 }
 
 .aboutFaith p {

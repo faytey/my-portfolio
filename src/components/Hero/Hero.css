@@ -1,19 +1,18 @@
 .hero {
   display: flex;
-  justify-content: space-around;
-  padding: 5rem;
   background-color: #f8d7b4;
+  justify-content: center;
   color: #444;
   height: 85vh;
   text-shadow: 1px 1px 1px #f8f8f8;
-  align-items: center;
 }
 
 .hero .info {
-  font: 700;
-  font-size: 2.5rem;
-  width: 60%;
-  margin-left: 5rem;
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero button {
@@ -31,7 +30,7 @@
 }
 
 .hero img {
-  width: 40%;
+  width: 70%;
   border-radius: 2%;
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
   animation: faith 1.5s ease-in forwards;

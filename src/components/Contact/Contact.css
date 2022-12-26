@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 5rem;
+  padding: 1rem 2rem 1rem 1rem;
   line-height: 3;
 }
 
@@ -28,20 +28,20 @@ textarea:focus {
   border-color: #f7c08a;
 }
 
-button{
-    width: auto;
-    height: auto;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    background: #444;
-    color: #fff;
-    border: none;
-    margin: 2rem 0;
-    border-radius: 0.2rem;
-    cursor: pointer;
+button {
+  width: auto;
+  height: auto;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: #444;
+  color: #fff;
+  border: none;
+  margin: 2rem 0;
+  border-radius: 0.2rem;
+  cursor: pointer;
 }
 
-button:hover{
-    background-color: #f7c08a;
-    color: #444;
+button:hover {
+  background-color: #f7c08a;
+  color: #444;
 }
