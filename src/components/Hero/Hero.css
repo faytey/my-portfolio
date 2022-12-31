@@ -1,81 +1,189 @@
 .hero {
-  display: flex;
-  background-color: #f8d7b4;
-  justify-content: center;
-  color: #444;
-  height: 100vh;
-  text-shadow: 1px 1px 1px #f8f8f8;
+  width: 58%;
+  margin-top: 5rem;
 }
 
-.hero .info {
-  font-size: 2rem;
-  width: 100%;
+.hero .red-top {
+  border-top: 0.3rem solid rgb(194, 64, 41);
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
-.hero button {
-  background: transparent;
-  border: 2px solid #444;
-  color: #444;
-  opacity: 0;
-  animation: github 1.5s 2s ease-in forwards;
+.bg-red {
+  background-color: rgb(194, 64, 41);
+  color: #fff;
 }
 
-@keyframes github {
-  100% {
-    opacity: 1;
-  }
+.bg-green {
+  background-color: rgb(44, 216, 102);
+  color: #fff;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2rem;
+}
+
+.bg-blue {
+  background-color: rgb(44, 113, 216);
+  color: #fff;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2rem;
+}
+
+.bg-white {
+  display: block;
+  background-color: #f8f8f8;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.bg-white:hover {
+  background-color: rgb(194, 64, 41);
+  color: #fff;
+}
+
+.hero .info {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 1rem;
+  background-color: #f8f8f8;
 }
 
 .hero img {
-  width: 70%;
-  border-radius: 2%;
-  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
-  animation: faith 1.5s ease-in forwards;
-  opacity: 0;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 4rem;
 }
 
-@keyframes faith {
-  100% {
-    opacity: 1;
-  }
+input {
+  width: 100%;
+  padding: 0.3rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 3rem;
+  border-radius: 0.2rem;
 }
 
-.greet {
-  animation: greet 5s ease-in-out forwards;
-  opacity: 0;
+.hero input {
+  background-color: #e2e9e7;
+}
+.hero .profiler {
+  margin-top: 2rem;
 }
 
-@keyframes greet {
-  100% {
-    opacity: 1;
-  }
+.hero .profiler .bio {
+  display: flex;
+  align-items: center;
 }
 
-.name {
-  animation: name 3s 1s ease-in-out forwards;
-  transform: translateX(-50px);
-  opacity: 0;
+.hero .profiler .gapped {
+  gap: 0.5rem;
 }
 
-@keyframes name {
-  100% {
-    transform: translateX(1px);
-    opacity: 1;
-  }
+.hero .profiler .btns {
+  border-radius: 2rem;
+  margin: 2rem 0;
+  cursor: pointer;
 }
 
-.role {
-  animation: role 3s 1s ease-in-out forwards;
-  transform: translateY(100px);
-  opacity: 0;
+.hero .profiler .spaced {
+  justify-content: space-between;
 }
 
-@keyframes role {
-  100% {
-    transform: translateY(1px);
-    opacity: 1;
-  }
+.rounded {
+  border-radius: 50%;
+  padding: 0.1rem 0.3rem;
+}
+
+.slightly-rounded {
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.location {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #f8f8f8;
+  border: 0.3rem solid rgb(44, 216, 102);
+  border-radius: 50%;
+}
+
+.label {
+  width: 0.5rem;
+  height: 1.5rem;
+  background-color: #f8f8f8;
+  border-bottom: 0.4rem solid rgb(44, 216, 102);
+  border-left: 0.4rem solid transparent;
+  border-right: 0.4rem solid transparent;
+}
+
+.card-display {
+  display: flex;
+  justify-content: space-around;
+}
+.card,
+.top-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 0.2rem;
+  background-color: #f8f8f8;
+}
+
+.card-btn {
+  border-radius: 0%;
+  height: 3rem;
+  transition: all 0.3s ease-in-out;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-profiles {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-profile,
+.lined {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-card {
+  padding: 1.5rem 1rem;
+  background-color: #f8f8f8;
+}
+
+.red {
+  color: red;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+  margin: 1rem;
+  text-align: center;
+}
+
+.center span {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  background-color: #f8f8f8;
+  font-size: 2rem;
+  color: rgb(177, 175, 175);
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.third img {
+  width: 2rem;
+  height: 2rem;
 }

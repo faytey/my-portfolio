@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import userImg from "../../images/faith.jpg";
 import { useState, useEffect } from "react";
 
 const NavBar = () => {
@@ -21,31 +21,30 @@ const NavBar = () => {
   return (
     <nav className="nav">
       <div className="navs">
-        <Link to="/">
-          <div className="nav-brand">FAITH R.</div>
-        </Link>
+        <div className="nav-brand">W</div>
+        <input type="text" placeholder="Search.." />
         <div className="toggle" onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-      {(toggler || screen > 900) && (
+      {(toggler || screen > 400) && (
         <ul className="nav-list">
-          <Link to="/">
-            <li className="nav-item">HOME</li>
-          </Link>
-          <Link to="/about">
-            <li className="nav-item">ABOUT</li>
-          </Link>
-          <Link to="/skills">
-            <li className="nav-item">SKILLS</li>
-          </Link>
-          <Link to="/contact">
-            <li className="nav-item">CONTACT</li>
-          </Link>
+          <li className="nav-item">Home</li>
+          <li className="nav-item">Companies</li>
+          <li className="nav-item">Projects</li>
+          <li className="nav-item">Profiles</li>
+          <li className="nav-item">Jobs</li>
+          <li className="nav-item">Messages</li>
+          <li className="nav-item">Notification</li>
         </ul>
       )}
+      <div className="user">
+        <img src={userImg} alt="user" />
+        <span>Faith</span>
+        <span className="arrow-down"></span>
+      </div>
     </nav>
   );
 };

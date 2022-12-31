@@ -1,10 +1,18 @@
 .App {
   height: auto;
-  background-color: #f8f8f8;
+  background-color: #e2e9e7;
   line-height: 2;
 }
 
-@media (max-width: 900px) {
+button {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.2em;
+  background-color: #e2e9e7;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
   .App {
     line-height: 1;
   }
@@ -28,6 +36,10 @@
     padding: 3px;
     /* display: none; */
     border: 1px dotted #444;
+  }
+
+  .nav .nav-list .nav-item a {
+    width: 100%;
   }
 
   .nav .nav-brand {
@@ -81,36 +93,5 @@
 
   .footer {
     line-height: 1.5;
-  }
-}
-
-@media (min-width: 900px) {
-  .hero {
-    font-weight: 500;
-    font-size: 2.5rem;
-    padding: 5rem;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero .info {
-    align-items: left;
-  }
-
-  .hero img {
-    width: 80%;
-    height: 80%;
-  }
-
-  .form {
-    padding: 1rem 5rem;
-  }
-
-  .skill {
-    height: 15rem;
-  }
-
-  .skill span {
-    font-size: 5rem;
   }
 }

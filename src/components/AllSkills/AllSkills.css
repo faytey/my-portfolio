@@ -1,9 +1,0 @@
-.allSkills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.allSkills div {
-  margin: 0.5rem;
-}
