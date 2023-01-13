@@ -30,6 +30,10 @@
     border: 1px dotted #444;
   }
 
+  .nav .nav-list .nav-item a {
+    width: 100%;
+  }
+
   .nav .nav-brand {
     padding: 2rem 0;
   }
